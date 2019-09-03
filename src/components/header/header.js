@@ -7,7 +7,10 @@ import logo from './logo.js'
 function Header(){
   return (
     <div className='header'>
+      <h1 className='logo'>
       {logo()}
+      </h1>
+      
     </div>
   )
 }
