@@ -1,0 +1,15 @@
+.tab-desc{
+  padding-top: 20px;
+  margin-bottom: 14px;
+  .title{
+    font-weight: 400;
+    &::before{
+      content: '';
+      display: inline-block;
+      width: 2px;
+      height: .8em;
+      background-color: #d33a31;
+      margin-right: 9px;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.hot-list-wrap{
+  position: relative;
+  padding: 10px 0 10px 20px;
+  overflow: hidden;
+  background: url(//s3.music.126.net/mobile-new/img/hot_music_bg_2x.jpg?f01a252389c26bcf016816242eaa6aee=)  no-repeat;
+  background-size: cover;
+  .hot-title{
+    width: 142px;
+    height: 67px;
+    background-position: -24px -30px;
+    background-image: url(//s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28c3767992ca4bb6d4887c74880=);
+    background-size: 166px 97px;
+  }
+  .up-time{
+    margin-top: 10px;
+    color: hsla(0,0%,100%,.8);
+    font-size: 12px;
+    -webkit-transform: scale(.91);
+    -ms-transform: scale(.91);
+    transform: scale(.91);
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+  }
+}
+.see-more{
+  height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #999;
+}

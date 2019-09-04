@@ -2,7 +2,7 @@ import React from "react";
 
 function logo() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 426 75">
+    <svg className='logo-text' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 426 75">
       <defs>
         <polygon id="path-1" points="0 0 426 0 426 73 0 73"></polygon>
       </defs>

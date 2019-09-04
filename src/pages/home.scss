@@ -1,0 +1,46 @@
+.wrap {
+  background: #fcfcfd;
+  .desc-wrap {
+    padding: 0 2px;
+    .desc-row {
+      display: flex;
+      margin-bottom: 16px;
+    }
+  }
+  .footer {
+    background: url(//s3.music.126.net/mobile-new/img/recommand_bg_2x.png?d045faf…=)
+      no-repeat;
+    background-size: cover;
+    .bottom {
+      padding-top: 12%;
+    }
+    .more {
+      line-height: 38px;
+      border: 1px solid #d33a31;
+      border-radius: 38px;
+      font-size: 16px;
+      color: #d33a31;
+      margin: 15px 37px 5px;
+      text-align: center;
+    }
+    .tips {
+      display: block;
+      color: #888;
+      font-size: 12px;
+      line-height: 16px;
+      -webkit-transform: scale(0.75);
+      -ms-transform: scale(0.75);
+      transform: scale(0.75);
+    }
+    .bottom-logo {
+      display: block;
+      margin: 0 auto;
+      width: 230px;
+      height: 44px;
+    }
+  }
+  .content-wrap {
+    height: calc(100vh - 125px);
+    overflow-y: scroll;
+  }
+}
