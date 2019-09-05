@@ -1,17 +1,16 @@
 // 分发路由组件
-import React from 'react'
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import home from './pages/home.jsx'
+import home from "./pages/home.jsx";
+import playList from "./pages/playList.jsx";
 
-function AppRouter(){
+function AppRouter() {
   return (
     <Router>
-      <Route path="/" component={home}>
-        
-      </Route>
+      <Route exact path="/" component={home}></Route>
+      <Route path="/playList" component={playList}></Route>
     </Router>
-  )
+  );
 }
 
-
-export default AppRouter
+export default AppRouter;

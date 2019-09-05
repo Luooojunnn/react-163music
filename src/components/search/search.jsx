@@ -23,6 +23,9 @@ class Search extends React.Component {
           <span className='close'></span>
         </div>
         <div className='hot-item-wrap'>
+          <div className='hot-tag'>
+            热门搜索
+          </div>
           {this.state.hotList.map((i,k) => (
             <span className='hot-item' key={k}>
               {i.first}
