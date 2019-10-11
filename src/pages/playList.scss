@@ -1,0 +1,30 @@
+.playList-wrap {
+  .header-wrap {
+    padding: 30px 10px 30px 15px;
+    .info {
+      display: flex;
+      .ava {
+        width: 126px;
+        height: 126px;
+      }
+      .more {
+        h2 {
+          background: red;
+          padding-top: 1px;
+          font-size: 17px;
+          line-height: 1.3;
+          color: #fefefe;
+          height: 44px;
+          display: -webkit-box;
+          -webkit-box-pack: center;
+        }
+        .more-info{
+          .ctor{
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+}
